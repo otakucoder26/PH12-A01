@@ -1,9 +1,10 @@
+
+/* Shared Item */
 * {
   margin: 0;
   cursor: default;
 }
 
-/* Shared Item */
 
 /* btn-styling */
 .btn-style {
@@ -258,3 +259,19 @@ footer {
   background-color: rgb(255, 249, 238);
 }
 
+.footer-logo-website-name {
+font-size: 100px;
+font-weight: 700px;
+color: #4e47ff;
+padding: 105px 0 8px 0;
+}
+.footer-description {
+color: #8987a1;
+padding: 0 680px 20px 680px;
+}
+
+.footer-links a {
+text-decoration: none;
+color: #8987a1;
+padding: 0 20px;
+}
