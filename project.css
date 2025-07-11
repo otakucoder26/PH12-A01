@@ -35,7 +35,7 @@ header {
 }
 
 .btn-style:hover {
-  background-color: rgb(125, 1, 207);
+  background-color: rgba(221, 177, 177, 0.911);
   cursor: pointer;
 }
 
@@ -85,4 +85,35 @@ header {
   width: 403px;
   height: 328px;
   border-radius: 48px;
+}
+/* Productive User Section */
+.productive-users-section {
+  background-color: rgba(229, 231, 255, 100);
+  height: 306px;
+  text-align: center;
+  margin: 0 141px;
+  border-radius: 24px;
+}
+
+.productive-users-section-title {
+  font-size: 38px;
+  font-weight: bold;
+  padding-top: 50px;
+}
+
+.productive-users-section-count {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 40px;
+}
+
+.user-count {
+  font-size: 80px;
+  font-weight: bold;
+  color: #4e47ff;
+}
+
+.users-count-subtitle {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 50);
 }
